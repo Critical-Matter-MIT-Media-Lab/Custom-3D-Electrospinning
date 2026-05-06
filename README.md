@@ -85,8 +85,7 @@ That is what this platform does. It mounts an electrospinning end-effector on a 
 | **D** | End effector — routes polymer + high voltage to the needle |
 | **E** | Conductive 3D-printed scaffolding (the substrate fibers deposit onto) |
 
-> [!WARNING]
-> **High voltage.** This system operates at up to **25 kV DC**. Proper insulation and grounding are mandatory. Maintain a safe standoff distance and never make physical contact with the emitter, polymer jet, or scaffold while the system is energized.
+> Before building or operating this platform, read the [Safety](#-safety) section below.
 
 ---
 
@@ -98,6 +97,41 @@ That is what this platform does. It mounts an electrospinning end-effector on a 
 | [`CAD Models/`](CAD%20Models) | STEP files for every printable / fabricated part of the syringe pump |
 | [`Arduino Code/`](Arduino%20Code) | ESP32 firmware for the syringe pump — exposes a Wi-Fi web UI for flow-rate control |
 | [`Publications/`](Publications) | Links to publications associated with this platform |
+
+---
+
+## ⚠ Safety
+
+> [!WARNING]
+> **Electrospinning involves high-voltage DC and volatile solvents. Read this section before powering on or building anything.**
+
+This platform operates at **up to 25 kV DC** and dispenses polymer solutions prepared with organic solvents. Both are serious hazards and must be respected. The same safety guidance that applies in our paper applies here.
+
+### High voltage
+
+- **Proper electrical insulation and grounding are strictly required.** All conductive paths intended to be at high potential must be sleeved in HV-rated insulation; all conductive paths intended to be at ground must be continuously, verifiably tied to earth ground.
+- **Maintain a safe standoff distance.** Never make physical contact with the emitter, polymer jet, or scaffold while the system is energized.
+- **De-energize and discharge before touching anything.** Switch off and disconnect the HV supply, then short the needle to ground (with an insulated grounding stick) before approaching the emitter — even a powered-off supply can leave residual charge.
+- **One person at the controls.** When the supply is energized, only one trained operator should be near the rig.
+
+### Solvents and ventilation
+
+The polymer solutions used in our paper involve solvents such as **water, formic acid, and lithium bromide**, and may include **calcium chloride** as an additive. Solvent vapor accumulates near the emitter during electrospinning.
+
+- **Operate inside a fume hood** or a dedicated, well-ventilated electrospinning enclosure.
+- **No open flames, no sparks, no ignition sources** anywhere near the emitter — solvent vapor + a high-voltage corona is a fire hazard.
+- **Wear appropriate PPE:** nitrile gloves, safety glasses, and a lab coat at minimum. Refer to the SDS for each specific solvent you use.
+
+### Robotic arm
+
+This platform integrates a **Universal Robots UR20** six-axis arm.
+
+- **Follow your robot's standard safety protocol.** Define a safety-rated workspace, use the e-stop, and keep humans out of the cell during programmed motion.
+- **Coordinate the HV and motion systems.** The robot should not be commanded to move when an operator is positioned to manually adjust the scaffold or the emitter — and HV must be off whenever the cell is entered.
+
+### Bottom line
+
+If you are unsure whether your setup is safe, **stop, ask, and verify** before proceeding. None of the contents of this repository should be treated as a substitute for proper lab training, institutional safety review, or supervision by a qualified electrical and chemical safety officer.
 
 ---
 

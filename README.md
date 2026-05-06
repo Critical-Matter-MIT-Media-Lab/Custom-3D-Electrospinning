@@ -5,6 +5,7 @@
 ### A robotic platform for three-dimensional, field-conditioned nanofiber fabrication
 
 *An open hardware + firmware companion to the SIGGRAPH 2026 paper*
+
 **[Electrospun Fields: 3D Nano-Fiber Material Computation as Design Method](#-publications)**
 
 [Critical Matter Group](https://www.media.mit.edu/groups/critical-matter/overview/) · MIT Media Lab

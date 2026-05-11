@@ -230,7 +230,7 @@ This paper will appear in the ACM Digital Library shortly. The entry below will 
 
 ---
 
-## Authors
+## Authors and Acknowledgements
 
 | Author | Affiliation |
 |---|---|
@@ -239,9 +239,14 @@ This paper will appear in the ACM Digital Library shortly. The entry below will 
 | Sergio Mutis | MIT |
 | Avantika Velho | Harvard University |
 | Annie Xing | Harvard University |
+| James Xiao | MIT |
 | Behnaz Farahi (Director, [Critical Matter Group](https://www.media.mit.edu/groups/critical-matter/overview/)) | MIT Media Lab |
 
 For questions, collaboration inquiries, or to flag issues with the documentation, please open a GitHub issue on this repository.
+
+### Acknowledgements
+
+We would like to acknowledge Frank (Haotian) Cong and Berfin Ataman for their invaluable contributions to the early development of the system. Our thanks also go to James Xiao for developing the syringe pump, and to Paolo Salvagione for his guidance on mechanical and electrical engineering. This research was developed in collaboration with the Rutledge Research Group at the MIT Department of Chemical Engineering; we extend our sincere gratitude to Nathan Ewell and Greg Rutledge for their expertise and generous assistance. Finally, we gratefully acknowledge the MIT–LUMA Grant for their generous financial support.
 
 ---
 

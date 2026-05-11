@@ -37,9 +37,9 @@ The fastest way to understand the full system is to watch our build tutorial. It
 
 <div align="center">
 
-[![Watch the tutorial on YouTube](https://img.youtube.com/vi/paKA7W3roEg/maxresdefault.jpg)](https://youtu.be/paKA7W3roEg)
+[![Watch the tutorial on YouTube](https://img.youtube.com/vi/paKA7W3roEg/maxresdefault.jpg)](https://youtu.be/FIuRhwlGrd0)
 
-**[▶ Watch on YouTube](https://youtu.be/paKA7W3roEg)**
+**[▶ Watch on YouTube](https://youtu.be/FIuRhwlGrd0)**
 
 </div>
 
@@ -246,7 +246,7 @@ For questions, collaboration inquiries, or to flag issues with the documentation
 
 ### Acknowledgements
 
-We would like to acknowledge Frank (Haotian) Cong and Berfin Ataman for their invaluable contributions to the early development of the system. Our thanks also go to James Xiao for developing the syringe pump, and to Paolo Salvagione for his guidance on mechanical and electrical engineering. This research was developed in collaboration with the Rutledge Research Group at the MIT Department of Chemical Engineering; we extend our sincere gratitude to Nathan Ewell and Greg Rutledge for their expertise and generous assistance. Finally, we gratefully acknowledge the MIT–LUMA Grant for their generous financial support.
+We would like to acknowledge Frank (Haotian) Cong and Berfin Ataman for their invaluable contributions to the early development of the system. Our thanks also go to Paolo Salvagione for his guidance on mechanical and electrical engineering. This research was developed in collaboration with the Rutledge Research Group at the MIT Department of Chemical Engineering; we extend our sincere gratitude to Nathan Ewell and Greg Rutledge for their expertise and generous assistance. Finally, we gratefully acknowledge the MIT–LUMA Grant for their generous financial support.
 
 ---
 
